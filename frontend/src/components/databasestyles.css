@@ -1,0 +1,51 @@
+body{
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #007bff, #ff416c);
+    color: white;
+}
+.container {
+    margin-top: 50px;
+}
+.suggestions-container {
+    margin-bottom: 20px; /* Add space below the search box */
+  }
+  
+  .suggestions-list {
+    max-height: 200px; /* Optional: Add max-height to keep suggestion list from overflowing */
+    overflow-y: auto;
+  }
+  
+.table-container {
+    overflow-x: auto;
+}
+.table {
+    background: #ffffff;
+    color: black;
+}
+.table th {
+    background: #ff416c;
+    color: white;
+    text-align: center;
+}
+.table td {
+    color: black;
+    text-align: center;
+}
+.btn-custom {
+    background: linear-gradient(135deg, #ff416c, #007bff);
+    border: none;
+    color: white;
+}
+.btn-custom:hover {
+    background: linear-gradient(135deg, #007bff, #ff416c);
+}
+   /* Ensures the input field occupies the entire width */
+   #searchInput {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ff416c;
+    border-radius: 5px;
+    color: black;
+}
+ 

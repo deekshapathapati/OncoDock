@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #007bff, #ff416c);
+    color: white;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+.form-container {
+    background: #252525;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.btn-custom {
+    background: linear-gradient(135deg, #ff416c, #007bff);
+    border: none;
+    color: white;
+}
+
+.btn-custom:hover {
+    background: linear-gradient(135deg, #007bff, #ff416c);
+}
